@@ -5,7 +5,7 @@ import { getRewriteRulesFromTsConfigPaths } from "src/utils";
 // The Rule creator returns a function that is used to create a well-typed ESLint rule
 // The parameter passed into RuleCreator is a URL generator function.
 export const createRule = ESLintUtils.RuleCreator(
-  (name) => `https://my-website.io/eslint/${name}`,
+  (name) => `https://github.com/yuliswe/eslint-plugin-${name}`,
 );
 
 export type RewriteImportsRuleOptions = [
@@ -23,7 +23,7 @@ export const rewriteImportsRule = createRule<
   name: "rewrite-imports",
   meta: {
     docs: {
-      description: "An example ESLint rule",
+      description: "Rewrite imports based on regex pattern or paths in tsconfig.json",
     },
     fixable: "code",
     type: "suggestion",

@@ -1,19 +1,19 @@
 {
   "name": "eslint-plugin-rewrite-imports",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint plugin for rewriting imports based on regex pattern or paths in tsconfig.json",
   "scripts": {
     "test": "jest",
     "build": "ts-node ./build.ts",
-    "start": "nodemon --config nodemon.json"
+    "start": "nodemon --config nodemon.json",
+    "prepublish": "npm run build"
   },
   "main": "dist/plugin.js",
-  "repository": {},
   "keywords": [],
   "author": "Yu Li",
   "license": "MIT",
   "bugs": {},
-  "homepage": "",
+  "homepage": "https://github.com/yuliswe/eslint-plugin-rewrite-imports",
   "devDependencies": {
     "@types/eslint": "^8.56.3",
     "@types/jest": "^29.5.12",
@@ -36,7 +36,18 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
+  "files": [
+    "README.md",
+    "package.json",
+    "package-lock.json",
+    "dist"
+  ],
+  "private": false,
   "peerDependencies": {
     "eslint": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuliswe/eslint-plugin-rewrite-imports"
   }
 }
