@@ -1,4 +1,4 @@
-# An example ESLint rule (`rewrite-imports/rewrite-imports`)
+# Rewrite imports based on regex pattern or paths in tsconfig.json (`rewrite-imports/rewrite-imports`)
 
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 

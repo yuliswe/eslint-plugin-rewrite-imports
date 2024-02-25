@@ -1,12 +1,13 @@
 {
   "name": "eslint-plugin-rewrite-imports",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint plugin for rewriting imports based on regex pattern or paths in tsconfig.json",
   "scripts": {
     "test": "jest",
+    "doc": "eslint-doc-generator",
     "build": "ts-node ./build.ts",
     "start": "nodemon --config nodemon.json",
-    "prepublish": "npm run build"
+    "prepublish": "npm run doc && npm run build"
   },
   "main": "dist/plugin.js",
   "keywords": [],
