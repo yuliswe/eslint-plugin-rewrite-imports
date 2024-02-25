@@ -84,7 +84,8 @@ module.exports = {
       },
     ],
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-    "object-shorthand": ["error", "properties"],
+    "object-shorthand": ["error", "always"],
+    "no-useless-rename": "error",
   },
   overrides: [
     {

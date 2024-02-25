@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "my-app"
+name = "eslint-plugin-rewrite-imports"
 version = "0.1.0"
 description = ""
 authors = ["Yu Li <github@yuli.se>"]

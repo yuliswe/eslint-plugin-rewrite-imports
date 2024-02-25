@@ -1,18 +1,9 @@
-# Start development
+<!-- begin auto-generated rules list -->
 
-## MacOS
+🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-If you are setting up the repo for the first time, following these steps:
+| Name                                             | Description            | 🔧 |
+| :----------------------------------------------- | :--------------------- | :- |
+| [rewrite-imports](docs/rules/rewrite-imports.md) | An example ESLint rule | 🔧 |
 
-1. Make sure your ~/.zshrc file has the following lines:
-```
-   if [ -f ./.zshrc ] && [ \$(pwd) != ~ ]; then
-     source ./.zshrc
-   fi
-```
-2. Run the following commands: (You only need to do this once.)
-```
-   ./initenv.bash
-```
-3. Start a new terminal session.
-
+<!-- end auto-generated rules list -->

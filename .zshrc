@@ -1,7 +1,7 @@
 export PS1='%F{004}%~%f$ '
 export WS_DIR="$(dirname $0/)"
 
-if ! [ -d ./.nodevenv ]; then
+if ! [ -d .nodevenv ]; then
 cat <<EOS
 If you are setting up the repo for the first time, following these steps:
 

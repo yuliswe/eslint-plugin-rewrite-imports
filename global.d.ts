@@ -3,6 +3,6 @@ declare module "*.graphql" {
   export default content;
 }
 
-declare interface ObjectConstructor {
+declare type ObjectConstructor = {
   keys<T>(o: T): (keyof T)[];
-}
+};
